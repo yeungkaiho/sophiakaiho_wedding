@@ -42,3 +42,5 @@ body{font-size:16px;line-height:1.85;padding-bottom:calc(76px + env(safe-area-in
 .venue-gallery button:hover{background:rgb(25 43 32 / 55%)}
 .venue-gallery button:focus-visible{outline:2px solid white;outline-offset:2px}
 .venue-mobile-gallery{margin:24px 0}
+
+.nav .monogram{display:flex;align-items:center;justify-content:center;flex-shrink:0;line-height:1}.nav .wedding-logo{display:block;width:auto;height:58px;object-fit:contain}@media(max-width:640px){.nav .wedding-logo{height:48px}}
