@@ -44,3 +44,5 @@ body{font-size:16px;line-height:1.85;padding-bottom:calc(76px + env(safe-area-in
 .venue-mobile-gallery{margin:24px 0}
 
 .nav .monogram{display:flex;align-items:center;justify-content:center;flex-shrink:0;line-height:1}.nav .wedding-logo{display:block;width:auto;height:58px;object-fit:contain}@media(max-width:640px){.nav .wedding-logo{height:48px}}
+
+.note-grid .attire-invite{margin-top:18px}.attire-palette{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px 8px;list-style:none;padding:0;margin:18px 0 0}.attire-palette li{display:flex;flex-direction:column;align-items:center;gap:7px;text-align:center;font-size:13px;line-height:1.5;letter-spacing:0}.attire-swatch{display:block;width:32px;height:32px;border-radius:50%;border:1px solid rgb(41 79 61 / 12%)}@media(max-width:640px){.note-grid .attire-invite,.note-grid .attire-palette{grid-column:2}.attire-palette{max-width:300px}.attire-palette li{font-size:14px}}
